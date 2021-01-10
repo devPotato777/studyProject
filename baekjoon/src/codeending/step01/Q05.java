@@ -1,4 +1,4 @@
-package baekjoon.codeending.step01;
+package codeending.step01;
 
 import java.util.Scanner;
 /*	A+B

@@ -1,4 +1,4 @@
-package baekjoon.heisely.step01;
+package heisely.step01;
 
 // 1008. A/B
 import java.util.Scanner;

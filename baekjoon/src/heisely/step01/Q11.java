@@ -1,4 +1,4 @@
-package baekjoon.heisely.step01;
+package heisely.step01;
 
 // 2588. 곱셈(세 자리 수 X 세 자리 수)
 import java.util.Scanner;

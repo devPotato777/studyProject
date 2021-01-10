@@ -1,4 +1,4 @@
-package baekjoon.heisely.step01;
+package heisely.step01;
 
 // 10869. 사칙연산
 import java.util.Scanner;

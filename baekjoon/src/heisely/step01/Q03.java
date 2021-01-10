@@ -1,4 +1,4 @@
-package baekjoon.heisely.step01;
+package heisely.step01;
 
 // 10171. 고양이
 public class Q03 {

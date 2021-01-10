@@ -1,4 +1,4 @@
-package baekjoon.codeending.step01;
+package codeending.step01;
 /*고양이
  * 문제 : 아래 예제와 같이 고양이를 출력하시오.
  * 

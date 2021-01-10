@@ -1,4 +1,4 @@
-package baekjoon.codeending.step01;
+package codeending.step01;
 
 /*Hello World
  * 문제 : Hello World!를 출력하시오.

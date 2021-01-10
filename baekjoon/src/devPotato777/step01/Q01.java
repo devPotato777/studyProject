@@ -1,4 +1,4 @@
-package baekjoon.devPotato777.step01;
+package devPotato777.step01;
 
 public class Q01 {
 
