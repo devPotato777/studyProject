@@ -8,7 +8,7 @@ public class Ex29 {
 		for(int i=1;i<=100;i++) {
 			System.out.printf("i=%d ", i);
 			
-			int tmp =i;
+			int tmp =i; //변수 i는 for문 제어에 쓰이므로 다른 변수에 저장해서 처리
 			
 			do {
 				//tmp%10이 3의 배수인지 확인(0 제외)
