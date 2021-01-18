@@ -2,20 +2,6 @@ package devPotato777.ch04;
 
 import java.util.*;	// Scanner클래스를 사용하기 위해 추가
 
-/* if~else if문
- * 
- * if (조건식1) {
- * 		// 조건식1의 연산결과가 참일 때 수행될 문장들을 적는다.
- * } else if (조건식2) {
- * 		// 조건식2의 연산결과가 참일 때 수행될 문장들을 적는다.
- * } else if (조건식3) {			// 여러 개의 else if를 사용할 수 있다.
- * 		// 조건식3의 연산결과가 참일 때 수행될 문장들을 적는다.
- * } else {	// 마지막에는 보통 else블럭으로 끝나며, else 블럭은 생략가능하다.
- * 		// 위의 어느 조건식도 만족하지 않을 때 수행될 문장들을 적는다.
- * }
- */
-
-
 public class Ex04 {
 
 	public static void main(String[] args) {

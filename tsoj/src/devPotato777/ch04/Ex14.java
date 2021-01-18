@@ -1,10 +1,5 @@
 package devPotato777.ch04;
 
-/*
- * for문에 사용되는 변수의 수가 적은 것이 더 효율적이고 간단하므로
- * 변수들의 관계를 잘 파악하여 불필요한 변수를 줄이는 것이 좋다.
- */
-
 public class Ex14 {
 
 	public static void main(String[] args) {
