@@ -2,14 +2,6 @@ package devPotato777.ch04;
 
 import java.util.*;
 
-/*
- * 문자열에 저장된 문자는 '문자열.charAt(index)'로 가져올 수 있는데,
- * index는 연속된 정수값으로 1이 아닌 0부터 시작한다.
- * 
- * char타입의 값은 사실 문자가 아닌 정수(유니코드)로 저장되기 때문에
- * 이처럼 char타입의 값도 switch문의 조건식과 case문에 사용할 수 있다.
- */
-
 public class Ex08 {
 
 	public static void main(String[] args) {

@@ -2,21 +2,6 @@ package devPotato777.ch04;
 
 import java.util.*;	// Scanner클래스를 사용하기 위해 추가
 
-/*
- * 중첩 if문
- * 
- * if (조건식1) {
- * 		// 조건식1의 연산결과가 true일 때 수행될 문장들을 적는다.
- * 		if (조건식2) {
- * 			// 조건식1과 조건식2가 모두 true일 때 수행될 문장들
- * 		} else {
- * 			// 조건식1이 true이고, 조건식2가 false일 때 수행되는 문장들
- * 		}
- * } else {
- * 		// 조건식1이 false일 때 수행되는 문장들
- * }
- */
-
 public class Ex05 {
 
 	public static void main(String[] args) {
