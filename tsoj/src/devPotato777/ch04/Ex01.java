@@ -1,13 +1,5 @@
 package devPotato777.ch04;
 
-/*
- *  if문
- *  
- *  if (조건식) {
- *  		// 조건식이 참(true) 일 때 수행될 문장들을 적는다.
- *  }
- */
-
 public class Ex01 {
 
 	public static void main(String[] args) {

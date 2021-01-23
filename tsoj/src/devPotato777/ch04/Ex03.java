@@ -2,18 +2,6 @@ package devPotato777.ch04;
 
 import java.util.*;	// Scanner클래스를 사용하기 위해 추가
 
-/*
- *  if-else문
- *  
- *  if (조건식) {
- *  		// 조건식이 참(true) 일 때 수행될 문장들을 적는다.
- *  } else {
- *  		// 조건식이 거짓(false) 일 때 수행될 문장들을 적는다.
- *  }
- *
- *
- */
-
 public class Ex03 {
 
 	public static void main(String[] args) {
