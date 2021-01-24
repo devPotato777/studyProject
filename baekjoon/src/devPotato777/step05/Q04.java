@@ -32,24 +32,27 @@ public class Q04 {
 		Scanner sc = new Scanner(System.in);
 
 		int[] arr = new int[10];
-		int[] rArr = new int[42];
-		int tmp = 0;
 		int cnt = 0;
 
 		for (int i = 0; i < arr.length; i++) {
-			arr[i] = sc.nextInt();
-			System.out.println(arr[i]);
-
-			tmp = arr[i] % 42;
-
-			for (int j = 0; j < rArr.length; j++) {
-				if (rArr[tmp] == tmp) {
-					cnt++;
-					rArr[tmp] = 1;
-				}
-			}
+			arr[i] = sc.nextInt() % 42;
 		}
-		
+
+		for (int i = 0; i < arr.length; i++) {
+			int count = 0;
+			
+			for (int j = i + 1; j < arr.length; j++) {
+				if (arr[i] == arr[j]) {
+					count++;
+				}
+			} // for j
+
+			if (count == 0) {
+				cnt++;
+			}
+
+		} // for i
+
 		System.out.println(cnt);
 
 		sc.close();
