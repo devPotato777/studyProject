@@ -9,7 +9,7 @@ public class Q03 {
 		
 		int[] arr = new int[26];
 		
-		for(int i = 0; arr.length; i++) {
+		for(int i = 0; i < arr.length; i++) {
 			arr[i] = -1;
 		}
 		
