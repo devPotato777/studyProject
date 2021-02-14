@@ -453,7 +453,7 @@ float divide(int x, int y){
 응용프로그램이 실행되면, JVM은 시스템으로부터 프로그램을 수행하는데 필요한 메모리를 할당받고
 JVM은 이 메모리를 용도에 따라 여러 영역으로 나누어 관리한다.
 
-![](C:\Users\POTATO\Downloads\[Java의정석]ch6_2_객체지향개념1.jpg)
+![](https://user-images.githubusercontent.com/46219754/107879581-098e7d80-6f1d-11eb-999d-6e6b0ee4b96d.jpg)
 **|참고|** cv는 클래스변수, lv는 지역변수, iv는 인스턴스변수를 뜻한다.
 
 
@@ -480,7 +480,7 @@ JVM은 이 메모리를 용도에 따라 여러 영역으로 나누어 관리한
 반환타입(return type)이 있는 메서드는 종료되면서 결과값을 자신을 호출한 메서드(caller)에게 반환된다.
 대기상태에 있던 호출한 메서드(caller)는 넘겨받은 반환값으로 수행을 계속 진행하게 된다.
 
-![](C:\Users\POTATO\Downloads\[Java의정석]ch6_2_객체지향개념1 호출스택의 변화.jpg)
+![](https://user-images.githubusercontent.com/46219754/107879635-58d4ae00-6f1d-11eb-9029-38eda167ddf7.jpg)
 
 **|참고|** 예제 6-7의 실행 시 호출스택의 변화
 
