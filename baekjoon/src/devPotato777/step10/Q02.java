@@ -1,5 +1,7 @@
 package devPotato777.step10;
 
+import java.util.Scanner;
+
 /*
 10870번
 피보나치 수 5
@@ -27,8 +29,26 @@ n이 주어졌을 때, n번째 피보나치 수를 구하는 프로그램을 작
 public class Q02 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Scanner sc = new Scanner(System.in);
 
+		System.out.print("n 입력 > ");
+		int n = sc.nextInt();
+		sc.close();
+
+		int sum = fibonacci(n);
+		System.out.println(sum);
+
+	}
+
+	public static int fibonacci(int n) {
+		if (n == 0) {
+			return 0;
+		}
+		if (n == 1) {
+			return 1;
+		}
+
+		return fibonacci(n - 1) + fibonacci(n - 2);
 	}
 
 }
